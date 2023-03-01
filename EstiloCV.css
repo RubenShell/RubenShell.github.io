@@ -112,34 +112,37 @@
   /*position: absolute;*/
 }
 
+/*FORMATO a el DIV que Contiene a los DIV que contienen Informacion de CV*/
 #Cont_info_Completa{
   background-color: black;
 }
 
-.Datos_Referencia{
-  text-indent: 5px;
-}
-
+/*FORMATO a los TITULOS de CADA DIV que contiene los datos del CV*/
 .Titulos_Datos{
   
-  font-family: 'Shantell Sans', cursive;}
-
-#Relleno_Datos{
- text-indent: 80px;  
- margin: 0px;
- padding: 0px;
-
+  font-family: 'Shantell Sans', cursive;
 }
 
+/*FORMATO AL DIV que contiene datos de la Experiencia Laboral*/
 #Relleno_Exp{
   text-indent: 80px;  
   margin: 0px;
- padding: 0px;
+  padding: 0px;
  }
+
+/*FORMATO AL DIV que contiene datos de Referencias*/
+#Relleno_Ref{
+  text-indent: 80px;  
+  margin: 0px;
+  padding: 0px;
+ 
+ }
+
+
 /* ###################################################################### */
 
 /* ###################################################################### */
 #Cont_PiePagina{
-  background-color: black;
+ background-color: black;
 }
 /* ###################################################################### */

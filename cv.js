@@ -1,5 +1,6 @@
 
 
+/* EVENTOS PARA CAMBIAR EL COLOR DE LOS DIV segun el MENU cuando el Mouse para sobre los diferentes Menu*/
 
 /* ################################################################# */
 document.getElementById('MEstudio').onmouseenter = function () {
