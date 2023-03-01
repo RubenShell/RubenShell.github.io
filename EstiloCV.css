@@ -1,0 +1,145 @@
+
+
+/* MANTENER TODOS LOS CONTENEDORES DE LA MISMA FORMA */
+.Contenedores{
+  border: 1px solid black;
+  padding: 1px;
+  margin: 2px;
+  background-color:white;
+  margin-left: 300px;
+  margin-right: 300px;
+  /* text-align: center; */
+}
+
+#Parrafo_CP{
+  padding: 0px;
+  margin: 0px;
+}
+
+#CabezaPagina {
+  border: 1px solid black;
+  padding: 0px;
+  margin: 0px;
+  background-color:rgb(193, 197, 193);
+  align-content:start;
+  text-align: center;
+}
+
+/* ###################################################################### */
+/* MANTENER LA FOTO EN LINEA CON LOS DATOS (HORIZONTAL) */
+#Cont_Presentacion{
+  overflow: hidden;
+  background-color:rgb(24, 23, 23);
+}
+
+/* MANTENER LA FOTO EN LINEA CON LOS DATOS (HORIZONTAL) */
+#Div_FotoCV{
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* MANTENER LA FOTO EN LINEA CON LOS DATOS (HORIZONTAL) */
+#DIV_Datos_Personales{
+  float: left;
+  margin: 1px;
+  padding: 1px;
+  position:relative;
+  left: 100px;
+  
+}
+
+.Informacion_Per{
+  color:white;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Shantell Sans', cursive;
+  color: white;
+  font-size: small;
+}
+
+/*PARA DAR FORMATO a EL NOMBRE y el APELLIDO*/
+#NombreyApellido{
+  font-family: 'Shantell Sans', cursive;
+  color: white;
+  margin: 1px;
+  padding: 1px;
+}
+
+.Datos_Personales{
+  color:black;
+  margin: 0px;
+  padding: 0px;
+}
+/* ###################################################################### */
+
+
+/* ###################################################################### */
+/* MODIFICAR SOLO EL CONTENEDOR DONDE SE ENCUENTA EL MENU */
+/* MANTENER EL MENU HORIZONTAL*/
+#Cont_Menu {
+  border: 2px solid black;
+  list-style-type: none;
+  text-align: center;
+  background-color: rgb(85, 84, 84);
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Shantell Sans', cursive;
+}
+
+/* LOS NOMBRES DEL MENU EN NEGRITA */
+#Lista_Menu{
+  font-weight: bold;
+}
+
+/* MANTENER EL MENU NAVEGADOR EN HORIZONTAL */
+.Menu {
+  display: inline;
+  font-weight:bolder;
+  font-size:large;
+  color: white;
+  
+}
+/* ###################################################################### */
+
+/* ###################################################################### */
+/* MANTENER LOS DIV de LOS DATOS del CV TODOS de la MISMA FORMA */
+.Datos {
+  border: 1px solid black;
+  padding: 0px;
+  margin: 0px;
+  background-color:rgb(222, 248, 217);
+
+  /*position: absolute;*/
+}
+
+#Cont_info_Completa{
+  background-color: black;
+}
+
+.Datos_Referencia{
+  text-indent: 5px;
+}
+
+.Titulos_Datos{
+  
+  font-family: 'Shantell Sans', cursive;}
+
+#Relleno_Datos{
+ text-indent: 80px;  
+ margin: 0px;
+ padding: 0px;
+
+}
+
+#Relleno_Exp{
+  text-indent: 80px;  
+  margin: 0px;
+ padding: 0px;
+ }
+/* ###################################################################### */
+
+/* ###################################################################### */
+#Cont_PiePagina{
+  background-color: black;
+}
+/* ###################################################################### */

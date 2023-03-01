@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PROYECTO FINAL - CV</title>
+
+
+    <!-- REFERENCIA A LA HOJA DE ESTILOS -->
+    <link rel="stylesheet" href="EstiloCV.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@100&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+ 
+ 
+
+ <div id="GENERAL">
+
+    <!-- ####################################################################### -->
+    <!-- CONTENEDOR ENCABEZADO de PAGINA -->
+    <header id="CabezaPagina">
+        <p id="Parrafo_CP">PROYECTO - Primeros Pasos del Desarrollo FRONTEND</p>
+    </header>
+
+
+    <!-- ####################################################################### -->
+    <!-- CONTENEDOR de PRESENTACION DE CV -->
+    <section id="Cont_Presentacion" class="Contenedores">
+        
+        <!-- DIV CONTENEDOR DE LA FOTO DEL AUTOR del CV -->
+        <div id="Div_FotoCV" class="Contenedor_DP" >
+            <img src="https://randomuser.me/api/portraits/men/62.jpg" id="Foto_CV" alt="FOTO CV">
+        </div>            
+        
+        <!-- DIV CONTENEDOR DE DATOS PERSONALES-->
+        <div id= "DIV_Datos_Personales" > 
+            <p id="NombreyApellido"><b>PEDRO GRIFFIN</b></p>
+            
+            <p class="Informacion_Per">Ciudad de Residencia: Bahia Blanca - Buenos Aires</p>
+            <p class="Informacion_Per">Ciudad de Nacimiento: Villa Regina - Rio Negro</p>
+            <p class="Informacion_Per">Fecha de Nacimiento: 31/10/1982</p>
+            <br>
+            <p class="Informacion_Per">Celular: 2915078370</p>
+            <p class="Informacion_Per">email: peter_griffin@hotmail.com</p> 
+        </div>
+    </section> 
+    <!-- FIN CONTENEDOR de PRESENTACION DE CV -->
+
+
+    <!-- ####################################################################### -->
+    <!-- CONTENEDOR DE MENU -->
+    <section id="Cont_Menu" class="Contenedores">
+        
+        <!-- CONTENEDOR DE NAVEGADOR para EXPLORAR el CV-->
+        <section id="NAVEGADOR_Menu"> 
+
+            <nav>
+                <ul id="Lista_Menu"> 
+                    <li id="ListaEstudios" class="Menu">  <a id="MEstudio" class="Menu" href="#Div_Estudios">ESTUDIOS </a> </li>
+                    <li id="ListaExpLab" class="Menu"> <span class="separador"> | </span> <a id="MExpeLab" class="Menu" href="#Div_Exp_Laboral">EXPERIENCIA LABORAL </a></li>
+                    <li id="ListaDescrPer" class="Menu"> <span class="separador"> | </span> <a id="MDescrPer" class="Menu" href="#Div_DescPersonal">DESCRIPCCION PERSONAL </a></li>
+                    <li id="ListaContaR" class="Menu"> <span class="separador"> | </span> <a id="MContactoR" class="Menu" href="#Div_Referencias">REFERENCIA </a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- FIN CONTENEDOR DE NAVEGADOR para EXPLORAR el CV-->
+    
+    </section>
+    <!-- FIN CONTENEDOR DE MENU -->
+
+
+    <!-- ####################################################################### -->
+    <!-- CONTENEDOR de DATOS del CV -->
+    <section id="Cont_info_Completa" class="Contenedores">
+       
+        <div id= "Div_Estudios" class="Datos"> 
+            <p id="Estudios" class="Titulos_Datos"><b>ESTUDIOS/FORMACION: </b></p> 
+            <ul>
+                <li>
+                    <p class="Datos_Personales">Periodo (1996 - 2000) Titulo Secundario Bachiller con Orientacion Empresarial</p>
+                    <p class="Datos_Personales">Centro de Educacion Media N 70 - (Villa Regina - Rio Negro)</p>
+                    <br>
+                </li>
+                <li>
+                    <p class="Datos_Personales">Periodo (2003 - 2006) Tecnico en Programacion</p>
+                    <p class="Datos_Personales">Instituto Superior de Programacion - (Modalidad Virtual)</p>
+                    <br>
+                </li>
+                <li>
+                    <p class="Datos_Personales">Periodo (2007 - 2011) Tecnico en Analisis de Sistemas</p>
+                    <p class="Datos_Personales">Instituto Superior Juan XXIII - (Bahia BLanca - Buenos Aires)</p>
+                    <br>
+                </li>
+
+                <li>
+                    <p class="Datos_Personales">Periodo (2013) Programacion Web Full Stack</p>
+                    <p class="Datos_Personales">Instituto Superior de Programacion - (Modalidad Virtual)</p>
+                    <br>
+                </li>
+                
+            </ul>
+        </div>
+
+        <div id= "Div_Exp_Laboral" class="Datos">
+            <p id="Experiencia_Laboral" class="Titulos_Datos"><b>EXPERIENCIA LABORAL: </b></p>
+            <ul>
+                <li>
+                    <p>Periodo (10/2018 - Presente) Analista/Programador, Servicios Técnicos IT - Buenos Aires</p>
+                    <ul>
+                        <li>Toma de requerimientos con el cliente</li>
+                        <li>Análisis de requerimientos y diseño de aplicaciones</li>
+                        <li>Desarrollo de aplicaciones utilizando Javascript, PHP, MySQL</li>
+                        <li>Soporte técnico a clientes</li>
+                        
+                    </ul>
+                </li>
+
+                <li>
+                    <p>Periodo (12/2014 - 10/2018) Programador Full Stack, Banco PP - Buenos Aires </p>
+                    <ul>
+                        <li>Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL, HTML5</li>
+                        <li>Realización de test de aplicaciones</li>
+                        <li>Solución de incidencias</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <p>Periodo (07/2011 - 12/2014) Programadora web, Sistemas Informáticos DW - Buenos Aires </p>
+                    <ul>
+                        <li>Desarrollo de aplicaciones web para clientes de la empresa del sector financiero utilizando Javascript, PHP</li>
+                        <li>Mantenimiento de aplicaciones web</li>
+                        <li>Maquetación HTML5, CSS3, Bootstrap</li>
+                    </ul>
+                </li>
+            </ul> 
+        </div>
+
+        <div id= "Div_DescPersonal" class="Datos"> 
+            <p id="Perfil" class="Titulos_Datos"> <b>PERFIL: </b> </p>
+            <p id="Relleno_Exp">
+            Desarrollador de Software con experiencia en Diseño, Instalacion, Pruebas y Mantenimiento de Sistemas de Software
+            <br>
+            </p>
+            <p id="Relleno_Exp">
+            Dominio de Varias Plataformas, Lenguajes y Sistemas Integrados.
+            <br>
+            </p>
+            <p id="Relleno_Exp">
+            Experiencia en las Herramientas y Procedimientos de Desarrollo mas Vanguardistas.
+            <br>
+            </p>
+            <p id="Relleno_Exp">
+            Capaz de Autogestion Eficaz en Proyectos Independientes.
+            <br>
+            </p>
+            <p id="Relleno_Exp">
+            Buenas Habilidades de Colaboracion dentro de un Equipo Productivo. 
+            <br><br>
+            </p>
+        </div>
+       
+        <div id= "Div_Referencias" class="Datos"> 
+            <p id="Referencias" class="Titulos_Datos"><b>REFERENCIAS: </b></p>
+            <p id="Relleno_Datos">
+            Bruno Daiz de Servicios Técnicos IT - Buenos Aires
+            
+            </p>    
+            <p id="Relleno_Datos">
+            e-mail: bruno_diaz@gmail.com
+            </p>
+            
+            <br>
+            <p id="Relleno_Datos">
+                Pablo Perez de Programador Full Stack, Banco PP - Buenos Aires
+            </p>
+            <p id="Relleno_Datos">
+                e-mail: pablo_perez@gmail.com
+                
+            </p>
+            <br>
+            <p id="Relleno_Datos">
+                Antonio Estrella de Programador Full Stack, Banco PP - Buenos Aires
+            </p>
+                
+            <p id="Relleno_Datos">
+                e-mail: antonio_estrella@gmail.com
+            </p>
+             
+        </div>
+        
+    </section>
+
+
+    <!-- ####################################################################### -->
+    <!-- CONTENEDOR PIE de PAGINA -->
+    <footer id="Cont_PiePagina" class="Contenedores">
+        
+    </footer>
+
+
+</div>
+
+<script src="cv.js"></script> 
+
+</body>
+
+</html>
